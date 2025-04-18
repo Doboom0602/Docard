@@ -1,0 +1,13 @@
+{
+    "name": "Docard",
+    "version_number": "1.2.0",
+    "website_url": "https://github.com/Doboom0602/Docard",
+    "description": "Mod I use to make cards with friends, learning C#",
+    "dependencies": [
+        "willis81808-UnboundLib-3.2.14",
+        "Pykess-ModdingUtils-0.4.8",
+        "Pykess-CardChoiceSpawnUniqueCardPatch-0.1.10",
+        "Root-GunBodyRecoilPatch-0.1.0",
+        "TeamDK-ZeroGBulletPatch-1.1.0"
+    ]
+}
