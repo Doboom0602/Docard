@@ -31,6 +31,12 @@ namespace Docard.Cards
         public override void OnRemoveCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
             //Run when the card is removed from the player
+            int jugCount = data.currentCards.Count(x => x.cardName == "Juggernaut") + 1;
+            gunAmmo.maxAmmo += jugCount;
+            gun.damage *= (float)(1 + (Math.Pow(2, jugCount - 1) * .1f));
+            gun.reloadTime *= (float)(1 + (Math.Pow(2, jugCount - 1) * .1f));
+            gun.attackSpeed *= (float)(1 + (Math.Pow(2, jugCount - 1) * .1f));
+            gun.projectileSpeed *= (float)(1 + (Math.Pow(2, jugCount - 1) * .1f));
         }
 
 

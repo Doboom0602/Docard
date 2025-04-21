@@ -25,15 +25,17 @@ namespace Docard.Cards
             {
                 homingObj
             };
+            gun.gravity = 0f;
+            gun.projectileSpeed = .1f;
+            gun.damage = 3f;
+            gun.attackSpeed = 4f;
+            gun.reloadTime = 1.5f;
+            gun.ammo = -1;
         }
         public override void OnAddCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
         {
             //Edits values on player when card is selected
-            gun.gravity = 0f;
-            gun.projectileSpeed *= .1f;
-            gun.damage *= 3f;
-            gun.attackSpeed *= 1.25f;
-            gun.reloadTime *= 1.5f;
+            
             
         }
         public override void OnRemoveCard(Player player, Gun gun, GunAmmo gunAmmo, CharacterData data, HealthHandler health, Gravity gravity, Block block, CharacterStatModifiers characterStats)
@@ -87,7 +89,7 @@ namespace Docard.Cards
                 {
                     positive = false,
                     stat = "Attack Speed",
-                    amount = "-25%",
+                    amount = "-75%",
                     simepleAmount = CardInfoStat.SimpleAmount.slightlyLower
                 },
                 new CardInfoStat()
@@ -96,6 +98,13 @@ namespace Docard.Cards
                     stat = "Reload Speed",
                     amount = "+0.5s",
                     simepleAmount = CardInfoStat.SimpleAmount.Some
+                },
+                new CardInfoStat()
+                {
+                    positive = false,
+                    stat = "Max ammo",
+                    amount = "-1",
+                    simepleAmount = CardInfoStat.SimpleAmount.slightlyLower
                 }
             };
         }

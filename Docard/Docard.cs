@@ -24,7 +24,7 @@ namespace Docard
     {
         private const string ModId = "com.Doboom.rounds.Docard";
         private const string ModName = "Docard";
-        public const string Version = "1.2.1"; // What version are we on (major.minor.patch)?
+        public const string Version = "1.2.2"; // What version are we on (major.minor.patch)?
         public const string ModInitials = "DC";
 
         public static Docard instance

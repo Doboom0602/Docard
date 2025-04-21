@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Docard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39b2d010f62f50db93d2c5dade41062812711fed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06497479cc6ba1b6a435a496b713207f064d187a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Docard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Docard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
