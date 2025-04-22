@@ -1,6 +1,6 @@
 {
     "name": "Docard",
-    "version_number": "1.2.0",
+    "version_number": "1.2.2",
     "website_url": "https://github.com/Doboom0602/Docard",
     "description": "Mod I use to make cards with friends, learning C#",
     "dependencies": [

@@ -14,8 +14,9 @@ Adds 3 cards
       - No Bullet Gravity
       - -90% Bullet Speed
       - +200% Damage
-      - -25% Attack Speed
+      - -75% Attack Speed
       - +0.5s Reload Speed
+      - -1 Max ammo
 
 3. Juggernaut
      "Effects double every time you pick it up"
